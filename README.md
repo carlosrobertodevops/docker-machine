@@ -58,7 +58,7 @@ staging   -        digitalocean   Running   tcp://203.0.113.81:2376             
 
 ## Installation and documentation
 
-Full documentation [is available here](https://docs.docker.com/machine/).
+Full documentation [is available here](https://docker-docs.netlify.app/machine/).
 
 ## Contributing
 
@@ -95,7 +95,7 @@ networking.  Consider the following:
     you may need to [manually add the route](https://github.com/docker/machine/issues/1500#issuecomment-121134958).
 -   Are you connected to a proxy server, corporate or otherwise?  If so, take a
     look at the `--no-proxy` flag for `env` and at [setting environment variables
-    for the created Docker Engine](https://docs.docker.com/machine/reference/create/#specifying-configuration-options-for-the-created-docker-engine).
+    for the created Docker Engine](https://docker-docs.netlify.app/machine/get-started/).
 -   Are there a lot of host-only interfaces listed by the command `VBoxManage list
     hostonlyifs`?  If so, this has sometimes been known to cause bugs.  Consider
     removing the ones you are not using (`VBoxManage hostonlyif remove name`) and
